@@ -27,6 +27,6 @@ const defaultPlugins = ({ env }) => ({
 
 module.exports = ({ customConfig }) => {
   return ({ file, options, env }) => ({
-    plugins: Object.assign({}, defaultPlugins({ env }), customConfig)
+    plugins: Object.assign({}, defaultPlugins({ env }), customConfig({ env }))
   })
 }
