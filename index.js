@@ -6,9 +6,9 @@ const defaultPlugins = ({ env }) => ({
     stage: 2,
     features: {
       'custom-media-queries': true,
+      'customer-properties': false,
     },
   },
-  'postcss-nested': {},
   // Niceties
   'postcss-brand-colors': {},
   'postcss-property-lookup': {},

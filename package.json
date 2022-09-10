@@ -1,6 +1,6 @@
 {
   "name": "@by-association-only/postcss-config-unisian",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,6 @@
     "cssnano": "^5.1.13",
     "postcss-brand-colors": "^3.0.0",
     "postcss-easy-import": "^4.0.0",
-    "postcss-nested": "^5.0.6",
     "postcss-preset-env": "^7.8.1",
     "postcss-property-lookup": "^3.0.0",
     "postcss-round-subpixels": "^2.0.0"
