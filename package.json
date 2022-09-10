@@ -1,25 +1,19 @@
 {
   "name": "@by-association-only/postcss-config-unisian",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "cssnano": "^4.1.8",
-    "postcss-brand-colors": "^2.0.0",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-hexrgba": "^1.0.1",
-    "postcss-inline-svg": "^3.1.1",
-    "postcss-loader": "^2.1.5",
-    "postcss-nested": "^3.0.0",
-    "postcss-preset-env": "^6.5.0",
-    "postcss-property-lookup": "^2.0.0",
-    "postcss-pxtorem": "^4.0.1",
-    "postcss-round-subpixels": "^1.2.0",
-    "postcss-sassy-mixins": "^2.1.0",
-    "postcss-will-change": "^2.0.0"
+    "cssnano": "^5.1.13",
+    "postcss-brand-colors": "^3.0.0",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.8.1",
+    "postcss-property-lookup": "^3.0.0",
+    "postcss-round-subpixels": "^2.0.0"
   },
   "author": "",
   "license": "ISC"
