@@ -6,7 +6,7 @@ const defaultPlugins = ({ env }) => ({
     stage: 2,
     features: {
       'custom-media-queries': true,
-      'customer-properties': false,
+      'custom-properties': false,
     },
   },
   // Niceties
