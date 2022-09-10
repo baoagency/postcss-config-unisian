@@ -5,6 +5,7 @@ const defaultPlugins = ({ env }) => ({
   'postcss-preset-env': {
     stage: 2,
     features: {
+      'case-insensitive-attributes': false,
       'custom-media-queries': true,
       'custom-properties': false,
       'nesting-rules': true,
