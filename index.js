@@ -7,6 +7,7 @@ const defaultPlugins = ({ env }) => ({
     features: {
       'custom-media-queries': true,
       'custom-properties': false,
+      'nesting-rules': true,
     },
   },
   // Niceties
